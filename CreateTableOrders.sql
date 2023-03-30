@@ -1,0 +1,6 @@
+CREATE TABLE orders (
+    id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    name NVARCHAR(30) NOT NULL,
+	orderr text NOT NULL,
+	dolgi INT NOT NULL
+);
